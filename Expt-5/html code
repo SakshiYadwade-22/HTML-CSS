@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <div class="calculator">
+        <h2>Simple Calculator</h2>
+<h1>The input element</h1>
+
+<form action="/action_page.php">
+  <label for="fnum">1st number:</label>
+  <input type="text" id="fnum" name="fnum"><br><br>
+  <label for="snum">2nd number:</label>
+  <input type="text" id="snum" name="snum"><br><br>
+ 
+<button type="button"onclick="calculate('add')">Add</button>
+<button type="button"onclick="calculate('subtract')">Subtract</button>
+<button type="button"onclick="calculate('multiply')">Multiply</button>
+<button type="button"onclick="calculate('divide')">Divide</button>
+<h3>Result: <span id="result"></span></h3>
+</div>
+</form>
+<script src='text.js'></script>
+</body>
+</html>
